@@ -1,0 +1,16 @@
+@import url('../header/__logo/__logo.css');
+@import url('../header/__menu/__menu.css');
+@import url('../header/__link/__link.css');
+
+.header{
+    padding: 0 104px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter, sans-serif;
+   
+    box-shadow: inset 0 -1px 0 #d1d2d6;
+    box-sizing: border-box;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  <!--оставлять эту строку? -->
+    <link rel="stylesheet" href="styles/normalize.css"> <!--подключить normalize-->
+    <link rel="stylesheet" href="styles/style.css">
+    <title>NewsAnalyzer</title>
+    <!-- настроить фавикон, 
+    <description>
+        разработать сервис для анализа происходящих в мире событий. 
+        Его задача — установить, насколько популярны в мире новости 
+        на определённую тему.
+    </description> 
+    <author>Tatiana Bikmukhametova</author> -->
+</head>
+<body class="width-page">
+    <div class="page">
+        <section class="search">
+            <header class="header">
+                <div class="header__logo">NewsAnalyzer</div>
+                <nav class="header__menu">
+                    <a href="#" target="_blank" class="header__link header__link_white header__link_active">Главная</a>
+                    <a href="#" target="_blank" class="header__link header__link_gray">О проекте</a>
+                </nav>
+            </header>
+            <div class="search__container">
+                <h1 class="search__title">Что в мире творится?</h1>
+                <h2 class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она&nbsp;была в новостях за прошедшую неделю.</h2>
+                <div class="search__field">
+                    <form>
+                        <div class="search__rectangle">
+                            <input type="text" class="search__form" name="search" placeholder="Введите тему новости"> 
+                            <!-- какой из вариантов лучше оформления кнопки через button или input? -->
+                            <!-- <input type="submit" class="search__button" value="Искать">  -->
+                            <button class="search__button">Искать</button>     
+                        </div>                                    
+                    </form>
+                </div>
+                <div class="search__bg"></div>
+            </div>            
+        </section>
+        
+        <main class="content">
+
+        </main>
+        <footer class="footer">
+
+        </footer>
+    </div>
+</body>
+</html>

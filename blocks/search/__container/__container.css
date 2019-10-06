@@ -1,0 +1,13 @@
+.search__container{
+    padding: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    width: 42.22%;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: space-between;
+    align-items: left;
+    font-family: Inter, sans-serif;
+    border: 1px solid red;
+} 
