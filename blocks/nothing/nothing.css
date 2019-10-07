@@ -1,0 +1,14 @@
+@import url('../nothing/__pic/__pic.css');
+@import url('../nothing/__title/__title.css');
+@import url('../nothing/__text/__text.css');
+
+.nothing{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    background-color:  #F5F6F7;
+}

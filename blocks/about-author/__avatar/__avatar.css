@@ -2,6 +2,6 @@
     margin: 0;
     width: 464px;
     height: 464px;
-    background: url('../../../images/avatar.jpg') center/cover no-repeat;
+    background: url('../../../images/avatar.jpg') center/cover no-repeat; 
     border-radius: 1000px;
 }
