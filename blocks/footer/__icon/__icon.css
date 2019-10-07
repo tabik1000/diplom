@@ -1,0 +1,11 @@
+.footer__icon {
+    background-image: url('../../../images/icon_github.webp');
+    background-image: url('../../../images/icon_facebook.png');
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: center; 
+    /*исправить размеры иконок!!!*/
+}

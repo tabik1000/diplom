@@ -1,0 +1,9 @@
+.footer__list{
+    margin: 0 auto;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;  
+} 
+
+
+

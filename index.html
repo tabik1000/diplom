@@ -28,17 +28,12 @@
             <div class="search__container">
                 <h1 class="search__title">Что в мире творится?</h1>
                 <h2 class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она&nbsp;была в новостях за прошедшую неделю.</h2>
-                <div class="search__field">
-                    <form>
-                        <div class="search__rectangle">
-                            <input type="text" class="search__form" name="search" placeholder="Введите тему новости"> 
-                            <!-- какой из вариантов лучше оформления кнопки через button или input? -->
-                            <!-- <input type="submit" class="search__button" value="Искать">  -->
-                            <button class="search__button">Искать</button>     
-                        </div>                                    
-                    </form>
-                </div>
-                <div class="search__bg"></div>
+                <form class="search__field">                
+                    <input type="text" class="search__form" name="search" placeholder="Введите тему новости"> 
+                    <!-- какой из вариантов лучше оформления кнопки через button или input? -->
+                    <!-- <input type="submit" class="search__button" value="Искать">  -->
+                    <button class="search__button">Искать</button>                                  
+                </form>
             </div>            
         </section>
         
@@ -46,7 +41,16 @@
 
         </main>
         <footer class="footer">
-
+            <p class="footer__copyright">&#169; 2019. Бикмухаметова Татьяна</p>
+            <nav class="footer__menu">
+                <a href="#" target="_blank" class="footer__link">Главная</a>
+                <a href="#" target="_blank" class="footer__link">О проекте</a>
+                <a href="#" target="_blank" class="footer__link">Яндекс.Практикум</a>
+            </nav>
+            <nav class="footer__list">
+                <a href="#" target="_blank" class="footer__media"><img src="images/icon_github.webp" alt="GitHub" class="footer__icon"></a>
+                <a href="#" target="_blank" class="footer__media"><img src="images/icon_facebook.png" alt="Facebook" class="footer__icon"></a>    
+            </nav>
         </footer>
     </div>
 </body>

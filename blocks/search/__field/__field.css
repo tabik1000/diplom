@@ -1,5 +1,13 @@
+@import url('./__form/__form.css');
+@import url('./__button/__button.css');
+
 .search__field {
     margin: 0 auto;
     margin-top: 64px;
- 
+    height: 64px; 
+    background-color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    border-radius: 100px; 
 }
+

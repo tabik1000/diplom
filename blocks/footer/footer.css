@@ -1,0 +1,17 @@
+@import url('./__copyright/__copyright.css');
+@import url('./__list/__list.css');
+@import url('./__link/__link.css');
+@import url('./__icon/__icon.css');
+@import url('./__media/__media.css');
+@import url('./__menu/__menu.css');
+
+.footer{
+    width: 85.42%;
+    margin: 0 auto;
+    margin-top: 80px;
+    /* padding: 0 104px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

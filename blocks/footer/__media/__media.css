@@ -1,0 +1,8 @@
+.footer__media{
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+.footer__media:nth-child(2){
+    margin-left: 27.89px;
+}

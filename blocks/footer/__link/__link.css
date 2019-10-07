@@ -1,0 +1,16 @@
+.footer__link{
+    margin: 0 auto;
+    margin-left: 48px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #1A1B22;
+}
+
+.footer__link:nth-child(1){
+    margin-left: 0;
+}
