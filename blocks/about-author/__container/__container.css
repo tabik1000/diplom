@@ -1,0 +1,7 @@
+.about-author__container{
+    margin: 0 auto;
+    margin-left: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,13 @@
+@import url('./__avatar/__avatar.css');
+@import url('./__container/__container.css');
+@import url('./__title/__title.css');
+@import url('./__text/__text.css');
+
+.about-author{
+    width: 85.42%;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
