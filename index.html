@@ -3,18 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">  <!--оставлять эту строку? -->
-    <link rel="stylesheet" href="styles/normalize.css"> <!--подключить normalize-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <meta name="description" content="Дипломная работа по курсу Яндекс.Практикум">
+    <meta name="author" content="Татьяна Бикмухаметова">
+    <link rel="stylesheet" href="styles/normalize.css"> 
     <link rel="stylesheet" href="styles/style.css">
-    <title>NewsAnalyzer</title>
-    <!-- настроить фавикон, 
-    <description>
-        разработать сервис для анализа происходящих в мире событий. 
-        Его задача — установить, насколько популярны в мире новости 
-        на определённую тему.
-    </description> 
-    <author>Tatiana Bikmukhametova</author> -->
+    <title>NewsAnalyzer</title>   
 </head>
+
 <body class="width-page">
     <div class="page">
         <section class="search">
@@ -33,6 +29,57 @@
                     <button class="search__button">Искать</button>                                  
                 </form>
             </div>            
+        </section>
+
+        <section class="result">            
+            
+            <div class="result__container">
+                <h2 class="result__title">Результаты поиска</h2>
+                <a href="#" class="result__analytics">Посмотреть аналитику</a>
+                <div class="result__path"></div>
+            </div>
+
+            <div class="result__grid">
+                <div class="card result__card">
+                    <div class="card__image"></div>
+                    <div class="card__container">
+                        <div class="card__data">2 августа, 2019</div>
+                        <div class="card__title">Национальное достояние – парки</div>
+                        <p class="card__text">
+                            В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
+                            складываться система национальных парков – охраняемых территорий, где 
+                            и сегодня каждый может приобщиться к природе.
+                        </p>
+                        <p class="card__news">Лента.ру</p>
+                    </div>
+                </div>
+                <div class="card result__card">
+                        <div class="card__image"></div>
+                        <div class="card__container">
+                            <div class="card__data">2 августа, 2019</div>
+                            <div class="card__title">Лесные огоньки: история одной фотографии</div>
+                            <p class="card__text">
+                                Фотограф отвлеклась от освещения суровой политической реальности Мексики,
+                                чтобы запечатлеть ускользающую красоту одного из местных чудес природы.
+                            </p>
+                            <p class="card__news">Медуза</p>
+                        </div>
+                </div>
+                <div class="card result__card">
+                        <div class="card__image"></div>
+                        <div class="card__container">
+                            <div class="card__data">2 августа, 2019</div>
+                            <div class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</div>
+                            <p class="card__text">
+                                    Знаменитый фотограф снимает первозданные леса России, чтобы рассказать
+                                    о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...
+                            </p>
+                            <p class="card__news">Риа</p>
+                        </div>
+                </div>
+                
+            </div>
+                 
         </section>
 
         <section class="nothing">
