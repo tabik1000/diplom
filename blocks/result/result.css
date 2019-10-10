@@ -3,7 +3,7 @@
 @import url('./__container/__container.css');
 @import url('./__analytics/__analytics.css');
 @import url('./__path/__path.css');
-@import url('./__path/__path.css');
+@import url('./__button-show/__button-show.css');
 
 .result{
     width: 100%;

@@ -1,8 +1,8 @@
 .search__button{
     background: #2F71E5;
-    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    /* box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
     border-radius: 100px;
-    border: none;
+    border: none; */
     width: 168px;
     height: 100%;
     float: right; 
@@ -16,3 +16,4 @@
 .search__button:hover{
     background-color: #2A65CC;
 }
+

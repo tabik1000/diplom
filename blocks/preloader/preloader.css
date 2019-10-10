@@ -1,0 +1,21 @@
+@import url('./__circle/__circle.css');
+@import url('./__text/__text.css');
+/* 
+body {
+	margin: 0;
+	min-height: 100vh;
+	background-color: #333;
+	
+	overflow: hidden;
+} */
+
+.preloader {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F5F6F7;
+	border: 1px solid red;
+}
+
