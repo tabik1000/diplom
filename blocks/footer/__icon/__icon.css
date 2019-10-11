@@ -1,10 +1,8 @@
 .footer__icon {
     margin: 0 auto;
-    position: absolute;
     width: 20px;
     height: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     align-self: center; 
-    
 }

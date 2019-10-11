@@ -1,12 +1,11 @@
-@import url('./_margin/_margin.css');
-
-.about-author__text{
-    margin: 0 auto;
-    max-width: 600px;
+.tech__subtitle{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
     color: #1A1B22;
 }

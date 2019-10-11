@@ -1,0 +1,8 @@
+.tech__container{
+    margin: 0 auto;
+    margin-top: 93px;
+    margin-bottom: 97px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -3,6 +3,7 @@
 @import url('../header/__link/__link.css');
 
 .header{
+    width: 85.42%;
     padding: 0 104px;
     margin: 0 auto;
     

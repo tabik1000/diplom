@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
     <meta name="description" content="Дипломная работа по курсу Яндекс.Практикум">
     <meta name="author" content="Татьяна Бикмухаметова">
+    <title>NewsAnalyzer</title>
     <link rel="stylesheet" href="styles/normalize.css"> 
-    <link rel="stylesheet" href="styles/style.css">
-    <title>NewsAnalyzer</title>   
+    <link rel="stylesheet" href="../index/index.css">
+    <link rel="icon" href="./images/favicon.png" type="image/png">       
 </head>
 
 <body class="width-page">
@@ -17,8 +18,8 @@
             <header class="header">
                 <div class="header__logo">NewsAnalyzer</div>
                 <nav class="header__menu">
-                    <a href="#" target="_blank" class="header__link header__link_white header__link_active">Главная</a>
-                    <a href="#" target="_blank" class="header__link header__link_gray">О проекте</a>
+                    <a href="../index/index.html" target="_blank" class="header__link header__link_white header__link_active">Главная</a>
+                    <a href="../about/about.html" target="_blank" class="header__link header__link_gray">О проекте</a>
                 </nav>
             </header>
             <div class="search__container">
@@ -26,7 +27,7 @@
                 <h2 class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она&nbsp;была в новостях за прошедшую неделю.</h2>
                 <form class="search__field">                
                     <input type="text" class="search__form" name="search" placeholder="Введите тему новости"> 
-                    <button class="button search__button">Искать</button>                                  
+                    <button class="button search__button search__button_push">Искать</button>                                  
                 </form>
             </div>            
         </section>
@@ -37,7 +38,7 @@
         </section>
 
         <section class="nothing">
-                <img src="images/not-found_v1.png" alt="Изображение грустного смайлика" class="nothing__pic">
+                <img src="../../images/not-found_v1.png" alt="Изображение грустного смайлика" class="nothing__pic">
                 <h2 class="nothing__title">Ничего не найдено</h2>
                 <p class="nothing__text">
                     К сожалению по вашему запросу ничего&nbsp;не&nbsp;найдено.
@@ -48,7 +49,7 @@
             
             <div class="result__container">
                 <h2 class="result__title">Результаты поиска</h2>
-                <a href="#" class="result__analytics">Посмотреть аналитику</a>
+                <a href="../news/news.html" class="result__analytics">Посмотреть аналитику</a>
                 <div class="result__path"></div>
             </div>
 
@@ -135,9 +136,12 @@
             <div class="about-author__avatar"></div>
             <div class="about-author__container">
                 <h2 class="about-author__title">Об авторе</h2>
-                <p class="about-author__text">
+                <p class="about-author__text about-author__text_margin">
                     Это блок с описаением автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь,
-                    какими технологиями разработки владете. Также можно рассказать о процессе обучения в Практикуме,
+                    какими технологиями разработки владете. 
+                </p>
+                <p class="about-author__text about-author__text_margin">
+                    Также можно рассказать о процессе обучения в Практикуме,
                     чему вы тут научились, и чем можете помочь потенциальным заказчикам.
                 </p>
             </div>
@@ -146,12 +150,14 @@
         <footer class="footer">
             <p class="footer__copyright">&#169; 2019. Бикмухаметова Татьяна</p>
             <nav class="footer__menu">
-                <a href="#" target="_blank" class="footer__link">Главная</a>
-                <a href="#" target="_blank" class="footer__link">О проекте</a>
-                <a href="#" target="_blank" class="footer__link">Яндекс.Практикум</a>
+                <a href="../index/index.html" target="_blank" class="footer__link">Главная</a>
+                <a href="../about/about.html" target="_blank" class="footer__link">О проекте</a>
+                <a href="https://praktikum.yandex.ru" target="_blank" class="footer__link">Яндекс.Практикум</a>
             </nav>
             <nav class="footer__list">
-                <a href="#" target="_blank" class="footer__media"><img src="images/Vector.png" alt="GitHub" class="footer__icon"></a>    
+                <a href="https://github.com/tabik1000/diplom" target="_blank" class="footer__media">
+                    <img src="../../images/Vector.png" alt="GitHub" class="footer__icon">
+                </a>    
             </nav>
         </footer>
     </div>
