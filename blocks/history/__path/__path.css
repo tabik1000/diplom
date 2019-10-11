@@ -1,0 +1,7 @@
+.history__path{
+    background: url('../../../images/path.png') center/cover no-repeat;
+    width: 8px;
+    height: 13px;
+    margin-left: 10px;
+    margin-top: 16px;
+}

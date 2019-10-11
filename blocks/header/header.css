@@ -6,10 +6,8 @@
     width: 85.42%;
     padding: 0 104px;
     margin: 0 auto;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: inset 0 -1px 0 #d1d2d6;
-    
+    box-shadow: inset 0 -1px 0 #d1d2d6;   
 }

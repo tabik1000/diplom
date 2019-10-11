@@ -1,0 +1,7 @@
+.history__container{
+    margin: 0 auto;
+    margin-top: 72px;
+    width: 85.42%;
+    display: flex;
+    border: 1px solid red;
+}

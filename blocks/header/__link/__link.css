@@ -1,6 +1,9 @@
-@import url('../__link/_active/_active.css');
+@import url('../__link/_main/_main.css');
 @import url('../__link/_white/_white.css');
 @import url('../__link/_gray/_gray.css');
+@import url('../__link/_black/_black.css');
+@import url('../__link/_hover-black/_hover-black.css');
+@import url('../__link/_hover-white/_hover-white.css');
 
 .header__link{
     padding: 30px 0 26px 0;
@@ -9,8 +12,6 @@
     line-height: 24px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    
-
 }
 
 .header__link:nth-child(2) {

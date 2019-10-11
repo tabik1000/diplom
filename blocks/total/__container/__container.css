@@ -1,0 +1,10 @@
+.total__container{
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-bottom: 80px;
+    max-width: 712px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
