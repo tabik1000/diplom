@@ -1,0 +1,12 @@
+.tabel__container{
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #1A1B22;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tabel__container:nth-child(2){
+    border-bottom: none;
+}

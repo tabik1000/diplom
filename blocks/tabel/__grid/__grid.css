@@ -1,0 +1,5 @@
+.tabel__grid{
+    display: grid;
+    grid-template-columns: 104px 1fr;
+    align-items: flex-end;
+}

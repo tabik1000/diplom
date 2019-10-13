@@ -1,0 +1,47 @@
+.tabel__line{
+    margin: 0;
+    margin-top: 56px;
+    min-width: 20px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-indent: 6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color:#2F71E5;
+}
+
+.tabel__line:nth-child(2){
+    width: 16.31%;
+    margin-top: 44px;
+}
+
+.tabel__line:nth-child(4){
+    width: 22.70%;
+}
+
+.tabel__line:nth-child(6){
+    width: 10.64%;
+}
+
+.tabel__line:nth-child(8){
+    width: 37.59%;
+}
+
+.tabel__line:nth-child(10){
+    width: 46.81%;
+}
+
+.tabel__line:nth-child(12){
+    width: 72.34%;
+}
+
+.tabel__line:nth-child(14){
+    width: 32.62%;
+}
